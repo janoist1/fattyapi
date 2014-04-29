@@ -5,3 +5,8 @@ services:
 #    ist1_dam_fatty_api.example:
 #        class: %ist1_dam_fatty_api.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]
+
+  ist1_dam_fatty_api.cors_listener:
+    class:      Ist1\DamFattyAPIBundle\Listener\CorsListener
+    tags:
+      - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }
