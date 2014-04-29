@@ -1,0 +1,7 @@
+parameters:
+#    ist1_dam_fatty_api.example.class: Ist1\DamFattyAPIBundle\Example
+
+services:
+#    ist1_dam_fatty_api.example:
+#        class: %ist1_dam_fatty_api.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

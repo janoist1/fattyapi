@@ -1,0 +1,3 @@
+ist1_dam_fatty_api:
+    resource: "@Ist1DamFattyAPIBundle/Controller/"
+    type:     annotation
